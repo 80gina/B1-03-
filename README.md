@@ -102,13 +102,15 @@
 | 1 | Google Sheets > Watch New Rows (트리거) | Spreadsheet / Sheet | 참가 신청 폼의 응답 시트 선택 ("설문지 응답 시트1") |
 | | | Table contains headers | Yes (첫 줄이 제목 줄이므로) |
 | | | Limit | 10 (한 번에 최대 10명 처리) |
-| | | 시계 아이콘(스케줄) | 15분마다 (Every 15 minutes) |
+| | | 시계 아이콘(스케줄) | 한번만 |
 | 2 | Google Sheets > Add a Row (액션 1) | Spreadsheet / Sheet | 레벨업트래커 시트 선택 |
 | | | Values (각 열) | 이름·디스코드닉네임·신청일 ← 1번 모듈의 값을 매핑 
 | 3 | Discord > Send a Message (액션 2) | Server / Channel | 냉장고 파먹기 챌린지 / #환영인사 |
 | | | Message content | 아래 4-6의 "환영 메시지" 문구를 붙여넣고, {디스코드닉네임} 자리에 1번 모듈의 닉네임 값을 매핑 |
 
 **결과**
+
+![그림 1. 전체 자동화 흐름도](001_flow.png)
 
 [참가신청서](https://docs.google.com/forms/d/e/1FAIpQLSdgD-Bpm0oU3R0GFx6FUcy3ZdjNjBLEPILqJVI-JhYU1sfmHA/viewform?usp=sharing&ouid=105650697046041270124))
 
